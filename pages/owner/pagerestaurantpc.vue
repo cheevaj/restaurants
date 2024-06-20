@@ -57,16 +57,16 @@
     </div>
   </template>
   <script>
-  import food from "../menu/food.vue";
-  import water from "../menu/water.vue";
-  import salad from "../menu/salad.vue";
+  // import food from "../menu/food.vue";
+  // import water from "../menu/water.vue";
+  // import salad from "../menu/salad.vue";
   export default {
     name: "IndexPage",
-    components: {
-      food,
-      water,
-      salad,
-    },
+    // components: {
+    //   food,
+    //   water,
+    //   salad,
+    // },
     data() {
       return {
         active: "food",
@@ -95,12 +95,10 @@
     overflow-y: scroll; /* Add the ability to scroll */
   }
   
-  /* Hide scrollbar for Chrome, Safari and Opera */
   .scroll_y::-webkit-scrollbar {
     display: none;
   }
   
-  /* Hide scrollbar for IE, Edge and Firefox */
   .scroll_y {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */

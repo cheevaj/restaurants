@@ -87,7 +87,7 @@ export default {
       this.$router.push('/user');
     },
     classOwner() {
-      this.$router.push('/owner');
+      this.$router.push('/owner/acout');
     },
     toLoading() {
       this.loading = true;

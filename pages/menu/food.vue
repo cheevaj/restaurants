@@ -23,11 +23,7 @@
                   <v-btn color="primary" dark >
                     Open Dialog
                   </v-btn>
-  
-                  
                 </v-row>
-                
-                
               </v-col>
             </v-row>
           </v-col>
